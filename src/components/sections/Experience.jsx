@@ -63,14 +63,16 @@ const Experience = () => {
           companies and projects.
         </Desc>
 
-        <VerticalTimeline>
+
+         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard
               key={`experience-${index}`}
               experience={experience}
             />
           ))}
-        </VerticalTimeline>
+        </VerticalTimeline> 
+
       </Wrapper>
     </Container>
   );
