@@ -1,8 +1,10 @@
 export const Bio = {
   name: "Dominguez Mateo",
   roles: [
-    "Software Developer",
-    "Programmer",
+    "Desarrollador de Software",
+    "Programador",
+    "Youtuber",
+    "Estudiante",
   ],
   description:
     "",
@@ -10,7 +12,6 @@ export const Bio = {
   resume:
     "falta-cv",
   linkedin: "https://www.linkedin.com/in/mateo-dom%C3%ADnguez-b09954291/",
-  twitter: ".",
   insta: ".",
   facebook: ".",
 };
@@ -160,7 +161,7 @@ export const skills = [
     ],
   },
   {
-    title: "Others",
+    title: "Otros",
     skills: [
       {
         name: "Git",

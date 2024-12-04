@@ -53,14 +53,13 @@ const Experience = () => {
   return (
     <Container id="Experience">
       <Wrapper>
-        <Title>Experience</Title>
+        <Title>Experiencia</Title>
         <Desc
           style={{
             marginBottom: "40px",
           }}
         >
-          My work experience as a software engineer and working on different
-          companies and projects.
+          Todavia no tengo experiencia profesional en alguna empresa, pero si e realizado varios proyectos para un tercero.
         </Desc>
 
 

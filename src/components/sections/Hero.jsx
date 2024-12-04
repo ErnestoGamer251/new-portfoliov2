@@ -227,10 +227,10 @@ const Hero = () => {
             <HeroLeftContainer>
               <motion.div {...headTextAnimation}>
                 <Title>
-                  Hi, I am <br /> {Bio.name}
+                  Hola, soy <br /> {Bio.name}
                 </Title>
                 <TextLoop>
-                  I am a
+                  Yo soy
                   <Span>
                     <Typewriter
                       options={{
@@ -248,7 +248,7 @@ const Hero = () => {
               </motion.div>
 
               <ResumeButton href={Bio.resume} target="_blank">
-                Check Resume
+                Revisar CV
               </ResumeButton>
             </HeroLeftContainer>
             <HeroRightContainer>
