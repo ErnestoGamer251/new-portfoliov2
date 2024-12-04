@@ -9,9 +9,21 @@
 }
 
 body {
-  margin: 0px !important;
+  width: 100%;
+  height: 100%;
+  margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh; /* Hace que el contenido llene la pantalla */
 }
 
 /* width */

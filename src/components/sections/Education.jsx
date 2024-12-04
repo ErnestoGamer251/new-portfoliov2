@@ -53,14 +53,14 @@ const Education = () => {
   return (
     <Container id="Education">
       <Wrapper>
-        <Title>Education</Title>
+        <Title>Educacion</Title>
         <Desc
           style={{
             marginBottom: "40px",
           }}
         >
-          My education has been a journey of self-discovery and growth. My
-          educational details are as follows.
+          Mi educación ha sido un viaje de autodescubrimiento y crecimiento. Mis
+          detalles educativos son los siguientes.
         </Desc>
 
         <VerticalTimeline>

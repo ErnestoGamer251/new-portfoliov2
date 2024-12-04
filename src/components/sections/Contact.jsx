@@ -128,21 +128,21 @@ const Contact = () => {
   return (
     <Container id="Education">
       <Wrapper>
-        <Title>Contact</Title>
+        <Title>Contacto</Title>
         <Desc
           style={{
             marginBottom: "40px",
           }}
         >
-          Feel free to reach out to me for any questions or opportunities!
+          ¡No dudes en comunicarte conmigo si tienes alguna pregunta u oportunidad!
         </Desc>
         <ContactForm onSubmit={handelSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" name="message" rows={4} />
-          <ContactButton type="submit" value="Send" />
+          <ContactTitle>Mandame un Email 🚀</ContactTitle>
+          <ContactInput placeholder="Email" name="from_email" />
+          <ContactInput placeholder="Nombre" name="from_name" />
+          <ContactInput placeholder="Asunto" name="subject" />
+          <ContactInputMessage placeholder="Mensaje" name="message" rows={4} />
+          <ContactButton type="submit" value="Enviar" />
         </ContactForm>
       </Wrapper>
     </Container>

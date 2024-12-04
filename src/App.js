@@ -13,12 +13,13 @@ import Footer from "./components/sections/Footer";
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
+  min-height: 100vh; /* Asegura que ocupe toda la pantalla */
   overflow-x: hidden;
   position: relative;
 `;
 
 const Wrapper = styled.div`
-  padding-bottom: 100px;
+  padding: 50px 20px; /* Añade algo de espacio para móviles */
   background: linear-gradient(
       38.73deg,
       rgba(204, 0, 187, 0.15) 0%,
@@ -30,7 +31,11 @@ const Wrapper = styled.div`
       rgba(0, 70, 209, 0.15) 100%
     );
   width: 100%;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 98%, 0 100%);
+  height: auto; /* Ajusta automáticamente según el contenido */
+  clip-path: none; /* Elimina restricciones de diseño */
+  @media (max-width: 768px) {
+    padding: 30px 10px; /* Reduce padding en pantallas pequeñas */
+  }
 `;
 
 function App() {
